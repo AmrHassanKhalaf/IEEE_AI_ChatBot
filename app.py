@@ -45,8 +45,7 @@ demo = gr.Interface(
     inputs="text",
     outputs="text",
     title="IEEE AI ChatBot",
-    description="Chatbot powered by Pinecone + Gemini",
-    api_name="/predict"
+    description="How Can I Help You",
 )
 
 if __name__ == "__main__":
